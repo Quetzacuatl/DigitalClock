@@ -1,0 +1,46 @@
+body {
+    width: 80%;
+    margin-left:10%;
+    margin-top:10%;
+}
+
+.digital-clock {
+    background-color: black;
+    color:white;
+    display:flex;
+    border-radius: 2rem;
+    padding: 0 2rem;
+    border: 0.5rem solid #2d2d2d;
+    align-items: center;
+    justify-content: center;
+}
+
+.weeks {
+    display:flex;
+    flex-direction:column;
+    width: 3rem;
+    color: #2d2d2d;
+}
+
+.weeks .active {
+    color:white;
+}
+
+.time {
+
+}
+
+.hour,
+.dots,
+.min {
+    display:inline-block;
+    font-size:13rem;
+}
+
+.min {
+    display:math;
+}
+
+.invisible {
+    visibility: hidden;
+}
